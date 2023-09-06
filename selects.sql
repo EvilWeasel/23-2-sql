@@ -15,3 +15,9 @@ WHERE DeveloperId=92;
 SELECT Count(Id)
 FROM videogames
 WHERE DeveloperId=92;
+
+
+
+SELECT DISTINCT Title, Releasedate, Genre
+FROM videogames;
+
